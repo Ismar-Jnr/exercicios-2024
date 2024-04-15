@@ -189,6 +189,43 @@ iframe{
     align-items: center; 
     padding-left: 2rem;
 }
+.discussoes h1{
+    font-family: 'Roboto';
+    color: #4E4E4E;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    background-color: #FDF1EB;
+    padding: 1.3rem;
+    border-bottom: 1px solid #5c5c5c8f;
+}
+.discussoes h2{
+    color: #ED7839;
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 2.1rem;
+    text-align: center;
+}
+.discussoes{
+    margin-top: 3rem;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #5C5C5C;
+    border: 1px solid #5c5c5c8f;
+    height: 200px;
+    text-align: center;
+    
+    
+}
+.topico{
+    width: 13rem;
+    height: 3rem;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    text-align: center;
+
+}
 
 .resumo h1{
     font-family: 'Roboto';
@@ -223,13 +260,6 @@ iframe{
     padding: 1.3rem;
 }
 
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
 
 button{
     margin: .3rem;
@@ -249,6 +279,7 @@ button:hover{
 }
 
 button.lingua{
+    margin-top: 1.5rem;
     color: black;
     border: 1px solid;
     background-color: rgba(255, 255, 255, 0);
@@ -256,8 +287,41 @@ button.lingua{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 15rem;
 }
 
 div.cabeca-main{
     display: flex;
+    gap: 3rem;
+        
 }
+
+.inicio{
+    padding-top: 1.5rem;
+    font-family: 'Quicksand';
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: right;
+}
+
+.assunto h3{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    color: #ED7839;
+}
+.autor{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #5C5C5C;
+}
+.assunto{
+    text-align: justify;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 1.8rem;
+}
+
