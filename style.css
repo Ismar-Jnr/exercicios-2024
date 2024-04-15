@@ -114,7 +114,7 @@ iframe{
     top: 0;
     left: 0;
     width: 100%;
-    height: 50rem;
+    height: 50%;
 }
 .citacao{
     font-family: 'Roboto';
@@ -122,6 +122,7 @@ iframe{
     line-height: 2.5rem;
     color: var(--font03);
     font-weight: 500;
+    padding: 1rem;   
 }
 .alinhamento{
     flex: 7;
@@ -131,10 +132,55 @@ iframe{
     flex: 3;
     width: 30%;
 }
+.secundaria{
+    border: 1px solid #4E4E4E;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    height: 50%;
+    overflow: auto;
+}
+.detais{
+    font-size: 1.2rem;
+    padding-left: 2rem;  
+    line-height: 2rem; 
+}
+.autores{
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    line-height: 2rem;
+}
+.university{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+    color: #33333365;
+}
+.secundaria p strong{
+    font-weight: 700;
+}
 .detalhes h1{
     font-size: 2rem;
     font-weight: 500;
+    line-height: 2.5rem;
     font-family: 'Roboto';
     color: #4E4E4E;
     background-color: #FDF1EB ;
+    height: 35px;
+    display: flex; 
+    align-items: center; 
+    padding-left: 2rem;
+    border-bottom: 1px solid #4E4E4E;
+}
+
+.detalhes h2{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    font-family: 'Roboto';
+    color: #4E4E4E;
+    display: flex; 
+    align-items: center; 
+    padding-left: 2rem;
 }
