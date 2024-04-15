@@ -208,10 +208,16 @@ iframe{
     border: 1px solid #5c5c5c8f;
     height: 200px;
     overflow: hidden;
+    position: relative;
 }
-.resumo.expandido{
+.expandido{
     height: auto;
     overflow: visible;
+}
+#vermais{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .resumo p{
     padding: 1.3rem;
@@ -223,5 +229,4 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: center;
-
 }
