@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    font-size: 62.5%;
+
+    /*Cores*/
+    --grad01: #FFB354;
+    --grad02: #EE7A3A;
+    --grad03: #FFB455;
+    --grad04: #ED7839;
+    --separador: #E7E7E7;
+    --font01: #725C5C;
+    --font02: #333333;
+    --font03: #ED7839;
+    --grad-button01: #FEB254;
+    --grad-button02: #F0813D;
+    
+
+}
